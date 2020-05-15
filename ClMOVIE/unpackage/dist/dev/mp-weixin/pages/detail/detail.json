@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "ClMOVIE",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#2d3d4c",
+  "usingComponents": {
+    "fraction": "/componets/fraction"
+  }
+}

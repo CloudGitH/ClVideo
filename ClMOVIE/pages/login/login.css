@@ -1,0 +1,86 @@
+.content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  background-color: #FFFFFF;
+}
+.login-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  justify-content: flex-start;
+}
+/* -start */
+.login-title {
+  font-size: 52rpx;
+  text-align: center;
+  padding: 60rpx 0 100rpx;
+}
+.input-wrap {
+  width: 650rpx;
+  border: 1px solid #ddd;
+  border-radius: 8rpx;
+  margin: 0 50rpx;
+}
+.input-text {
+  height: 80rpx;
+  padding: 0 20rpx;
+  font-size: 30rpx;
+}
+.border-bottom {
+  border-bottom: 1px solid #ddd;
+}
+.submit-btn {
+  width: 650rpx;
+  height: 90rpx;
+  border: none;
+  color: #FFFFFF;
+  border-radius: 8rpx;
+  margin-top: 30rpx;
+}
+.other {
+  position: fixed;
+  width: 100%;
+  bottom: 0rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.other-title  {
+  color: #777;
+  font-size: 30rpx;
+  text-align: center;
+}
+.wx-login {
+  width: 110rpx;
+  height: 110rpx;
+  background-image: url(../../static/wx.png);
+  background-color: rgba(255,255,255,.8);
+  border-radius: 55px;
+  background-size: 70rpx 70rpx;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 6rpx #ccc;
+}
+.wb-login {
+  width: 110rpx;
+  height: 110rpx;
+  background-image: url(../../static/weibo.png);
+  background-color: rgba(255,255,255,.8);
+  border-radius: 55px;
+  background-size: 70rpx 70rpx;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 6rpx #ccc;
+}
+.quick-login-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.quick-login-item {
+  padding: 40rpx 30rpx 110rpx;
+}

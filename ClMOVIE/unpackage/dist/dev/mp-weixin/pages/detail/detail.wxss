@@ -1,0 +1,159 @@
+/* 预告视频-start */
+.detail-movie-wrap {
+  width: 750rpx;
+  height: 430rpx;
+}
+.detail-movie {
+  width: 750rpx;
+  height: 430rpx;
+}
+/* 预告视频-end */
+/* 预告视频信息-start */
+.detail-movie-info {
+  width: 690rpx;
+  padding: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.detail-movie-cover {
+  width: 260rpx;
+  height: 380rpx;
+}
+.detail-movie-text-box {
+  width: 380rpx;
+}
+.detail-movie-name {
+  font-size: 50rpx;
+}
+.detail-movie-text-detail {
+  font-size: 26rpx;
+  line-height: 30rpx;
+  margin-top: 10rpx;
+  color: #aaa;
+}
+.detail-movie-score-block {
+  width: 100%;
+  background-color: #fff;
+  margin-top: 24rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 24rpx 0;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+}
+.score-block-left {
+  width: 156rpx;
+  color: #aaa;
+}
+.score-block-left .t1 {
+  font-size: 28rpx;
+  line-height: 28rpx;
+  text-align: center;
+}
+.score-block-left .t2 {
+  text-align: center;
+  font-size: 46rpx;
+  line-height: 46rpx;
+  font-weight: bold;
+  color: #fc3;
+  margin-top: 22rpx;
+}
+.score-block-right {
+  padding: 30rpx 0 0 12rpx;
+}
+.score-block-right .t2 {
+  font-size: 24rpx;
+  line-height: 26rpx;
+  color: #aaa;
+}
+/* 预告视频信息-end */
+/* 分割线-start */
+.line-wrpa {
+  width: 690rpx;
+  padding: 0 30rpx;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #eee;
+}
+/* 分割线-end */
+/* 剧情介绍-start */
+.movie-block {
+  width: 690rpx;
+  padding: 30rpx;
+}
+.movie-title {
+  font-size: 30rpx;
+  color: #bbb;
+}
+.movie-introduce-content {
+  font-size: 32rpx;
+  color: #000;
+  margin-top: 20rpx;
+}
+/* 剧情介绍-end */
+/* 演职人员-start */
+.personnel-list {
+  width: 750rpx;
+  height: 380rpx;
+  white-space: nowrap;
+  margin-top: 20rpx;
+}
+.personnel-item-box {
+  display: inline-block;
+  width: 170rpx;
+  margin-right: 10rpx;
+}
+.personnel-img {
+  width: 170rpx;
+  height: 240rpx;
+}
+.personnel-item-name {
+  font-size: 28rpx;
+  line-height: 28rpx;
+  margin-top: 16rpx;
+  text-align: center;
+}
+.personnel-item-box:first-child {
+  margin-left: 30rpx;
+}
+.personnel-item-box:last-child {
+  margin-right: 30rpx;
+}
+.item-action-name {
+  text-align: center;
+  font-size: 28rpx;
+  line-height: 28rpx;
+  margin-top: 12rpx;
+  color: #aaa;
+}
+.PL {
+  padding: 0 30rpx;
+}
+/* 演职人员-end */
+/* 剧照-start */
+.plot-img {
+  width: 220rpx;
+  height: 320rpx;
+  margin-right: 10rpx;
+}
+.plot-img:first-child {
+  margin-left: 30rpx;
+}
+.plot-img:last-child {
+  margin-right: 30rpx;
+}
+/* 剧照-end */
+

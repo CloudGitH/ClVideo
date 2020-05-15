@@ -1,0 +1,55 @@
+/* 顶部搜索框-start */
+.flex-box {
+  padding: 30rpx;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* #ifdef H5 */
+  top: 88rpx;
+  /* #endif */
+  z-index: 99;
+  border-bottom: 1px solid #efefef;
+}
+.search-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 690rpx;
+  height: 60rpx;
+  background-color: #eaeaea;
+  border-radius: 8rpx;
+}
+
+.search-icon {
+  width: 34rpx;
+  height: 34rpx;
+  padding: 13rpx;
+}
+.search-input {
+  height: 60rpx;
+  width: 630rpx;
+}
+/* 顶部搜索框-end */
+
+/* 搜索列表-start */
+.search-list {
+  width: 690rpx;
+  padding: 160rpx 30rpx 0;
+  /* background-color: #fff; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.search-item {
+  width: 200rpx;
+  height: 270rpx;
+  margin: 0 45rpx 45rpx 0;
+}
+.search-item:nth-child(3n+3){
+  margin-right: 0;
+}
+.search-item-img {
+  width: 200rpx;
+  height: 270rpx;
+}
+/* 搜索列表-end */

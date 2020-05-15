@@ -1,0 +1,27 @@
+/* start */
+.input-text {
+  display: block;
+  width: 650rpx;
+  height: 100rpx;
+  background-color: #fff;
+  padding: 0 20rpx;
+  margin: 60rpx 55rpx 0;
+  border-radius: 8rpx;
+}
+.submit-btn {
+  width: 690rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 30rpx;
+  color: #fff;
+  margin-top: 40rpx;
+}
+.picker {
+  opacity: 0;
+  background-color: #f60;
+  position: absolute;
+  z-index: 999;
+  top: 55rpx;
+  margin: 0 auto;
+}
+

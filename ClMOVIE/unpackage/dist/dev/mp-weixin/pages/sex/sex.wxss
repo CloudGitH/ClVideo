@@ -1,0 +1,16 @@
+/* start */
+.submit-btn {
+  width: 690rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 30rpx;
+  color: #fff;
+  margin-top: 40rpx;
+}
+.radio-wrap {
+  padding: 0 40rpx;
+}
+.radio-box {
+  margin-top: 60rpx;
+}
+

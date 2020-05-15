@@ -1,0 +1,153 @@
+.content {
+  position: relative;
+}
+.me-top-bg {
+  width: 750rpx;
+  height: 340rpx;
+  background-image: url('http://122.152.205.72:88/group1/M00/00/03/CpoxxFwu_1OAYFAIAAAzO_Q1tPg693.png');
+  /* background-size: cover; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffd655;
+}
+/* 登录注册按钮-start */
+.login-btn {
+  width: 320rpx;
+  height: 76rpx;
+  border-radius: 40rpx;
+  text-align: center;
+  font-size: 26rpx;
+  line-height: 76rpx;
+  font-weight: bold;
+  background-color: #fff;
+  margin-top: 90rpx;
+  color: #8e762b;
+}
+/* 登录注册按钮-end */
+
+/* 快捷登录图标-start */
+.quick-login-item {
+  padding: 40rpx 20rpx;
+}
+.wx-login {
+  width: 80rpx;
+  height: 80rpx;
+  background-image: url(../../static/wx.png);
+  background-color: rgba(255,255,255,.8);
+  border-radius: 40px;
+  background-size: 50rpx 50rpx;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.wb-login {
+  width: 80rpx;
+  height: 80rpx;
+  background-image: url(../../static/weibo.png);
+  background-color: rgba(255,255,255,.8);
+  border-radius: 40rpx;
+  background-size: 50rpx 50rpx;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.quick-login-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.login-title {
+  font-size: 24rpx;
+  font-weight: bold;
+  color: rgba(255,255,255,1);
+  text-align: center;
+  margin-top: 14rpx;
+}
+/* 快捷登录图标-end */
+
+/* 设置按钮-start */
+.set-icon {
+  position: absolute;
+  top: 24rpx;
+  right: 30rpx;
+  width: 44rpx;
+  height: 44rpx;
+}
+/* 设置按钮-end */
+
+/* 我的页面列表项-start */
+.me-info-set {
+  margin-top: 20rpx;
+}
+.info-set-icon {
+  width: 36rpx;
+  height: 36rpx;
+  padding: 37rpx 37rpx 37rpx 7rpx;
+}
+.info-set-arrow {
+  width: 36rpx;
+  height: 36rpx;
+  padding: 37rpx 7rpx 37rpx 37rpx;
+}
+.me-info-set-left {
+  display: flex;
+  flex-direction: row;
+  height: 110rpx;
+  line-height: 110rpx;
+}
+.info-set-text {
+  font-size: 32rpx;
+  color: #555;
+}
+.hei110 {
+  height: 110rpx;
+  display: flex;
+  flex-direction: row;
+  background-color: #FFFFFF;
+  width: 690rpx;
+  justify-content: space-between;
+  padding: 0 30rpx;
+}
+.border-bottom {
+  border-bottom: 1px solid #f3f3f3;
+}
+/* 我的页面列表项-end */
+
+/* 登录状态-start */
+.login-yes-block {
+  display: flex;
+  flex-direction: row;
+  margin-top: 96rpx;
+  width: 100%;
+}
+.login-face {
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  margin-left: 80rpx;
+  background-color: #ffd655;
+}
+.login-info-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30rpx;
+}
+.login-info-name {
+  font-size: 42rpx;
+  font-weight: bold;
+  color: #584b23;
+  /* text-shadow: 4rpx 4rpx 10rpx rgba(0,0,0,.2); */
+  margin-top: 20rpx;
+}
+.login-info-small {
+  display: flex;
+  flex-direction: row;
+  margin-top: 16rpx;
+  font-size: 28rpx;
+  color: #584b23;
+  /* font-weight: bold; */
+}
+.login-info-date {
+  margin-left: 30rpx;
+}
+/* 登录状态-end */

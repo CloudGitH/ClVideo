@@ -1,0 +1,164 @@
+/* 首页banner-start */
+.banner-swiper {
+  display: block;
+  width: 750rpx;
+  height: 440rpx;
+}
+.banner-img {
+  display: block;
+  width: 750rpx;
+  height: 440rpx;
+}
+/* 首页banner-end */
+/* 热门超英-start */
+.module-wrap {
+  margin-top: 18rpx;
+  background-color: #fff;
+}
+.module-title {
+  width: 750rpx;
+  height: 90rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+}
+.module-icon {
+  width: 40rpx;
+  height: 40rpx;
+  padding: 25rpx 30rpx;
+}
+.module-desc {
+  font-size: 40rpx;
+  line-height: 90rpx;
+  font-weight: bold;
+}
+.popular-hero-list {
+  width: 750rpx;
+  height: 358rpx;
+  white-space: nowrap;
+}
+.popular-hero-item {
+  display: inline-block;
+  width: 200rpx;
+  padding-left: 30rpx;
+}
+.popular-hero-item:last-child {
+  padding-right: 30rpx;
+}
+.popular-hero-img {
+  display: block;
+  width: 100%;
+  height: 270rpx;
+}
+.popular-hero-name {
+  margin-top: 16rpx;
+  width: 100%;
+  font-size: 26rpx;
+  line-height: 26rpx;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+/* 热门超英-end */
+/* 预告超英-start */
+.notice-hero-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.notice-hero-item {
+  width: 330rpx;
+  height: 220rpx;
+  margin: 0 30rpx 30rpx 30rpx;
+}
+.notice-hero-item:nth-of-type(even) {
+  margin: 0 0 30rpx 0;
+}
+.notice-hero-video {
+  width: 330rpx;
+  height: 220rpx;
+}
+/* 预告超英-end */
+/* 猜你喜欢超英-start */
+.guess-hero-love-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 50rpx;
+}
+.guess-hero-love-img {
+  display: block;
+  width: 180rpx;
+  height: 240rpx;
+  border-radius: 8rpx;
+  margin-left: 30rpx;
+}
+.guess-hero-love-desc {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  width: 330rpx;
+  margin-left: 24rpx;
+}
+.guess-hero-love-name {
+  font-size: 40rpx;
+}
+.guess-hero-love-info {
+  font-size: 26rpx;
+  line-height: 30rpx;
+  color: #c3c3c3;
+  margin-top: 12rpx;
+}
+.guess-hero-love-praise {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 140rpx;
+  margin-left: 30rpx;
+  border-left: 1px dashed #c3c3c3;
+}
+.guess-hero-love-praise-img {
+  width: 36rpx;
+  height: 36rpx;
+}
+.guess-hero-love-praise-text {
+  font-size: 27rpx;
+  line-height: 27rpx;
+  color: #fc3;
+  margin-top: 6rpx;
+}
+#animation {
+  color: #fc3;
+  opacity: 0;
+}
+/* 猜你喜欢超英-end */
+
